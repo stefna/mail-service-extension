@@ -1,0 +1,25 @@
+{
+	"name": "stefna/mail-service-extension",
+	"description": "",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Stefna\\MailServiceExtension\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Andreas Sundqvist",
+			"email": "andreas@stefna.is"
+		}
+	],
+	"require-dev": {
+		"phpstan/phpstan": "^0.12.96",
+		"stefna/codestyle": "^1.11",
+		"async-aws/ses": "^1.4"
+	},
+	"require": {
+		"kodus/mail": "^1.0"
+	}
+}
